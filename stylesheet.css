@@ -1,0 +1,157 @@
+.bodys{
+    padding: 0px;
+    border-radius: none;
+    padding-top: 0px;
+}
+.left {
+    flex: 3; 
+    padding: 20px;
+    overflow: auto; 
+    justify-content: center;
+    width: 850px;
+}
+.right {
+    flex: 1; 
+    padding: 20px;
+    justify-content: center;
+}
+.menu p{
+    background-color: #222831;
+    height: 70px;
+    width:auto;
+    font-family: Poppins;
+    padding: 10px;
+    padding-left: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 30px;
+   
+}
+.clickable-part{
+    margin-right: 10px;
+    float: right;
+    color: #EEEDED;
+    font-family: Poppins;
+    font-size: 20px;
+    padding-right: 30px;
+    padding-top: 8px;
+}
+
+.header b{
+    font-family: Arial;
+    font-size: 40px;
+}
+.header p{
+    font-style: italic;
+    font-size: 15px;
+    color: #6c757d;
+}
+.carousel-item img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+.caption {
+    text-align: justify;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+.right{
+    flex:2;
+    padding:20px;
+    float:right;
+}
+.outer-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.outer-box:focus {
+    outline: none;
+}
+.outer-box h4{
+    border-bottom: 1px solid #ccc;
+}
+.enterterm{
+    width: 220px;
+    border: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: calc(100% - 70px); 
+    margin-right: 10px;
+}
+.go{
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;       
+}
+.go:hover{
+    background-color: #0056b3;
+}
+.row {
+    display: flex;
+    border: 1px solid #ccc; /* Border around the row */
+    margin-bottom: 10px;
+}
+.column {
+    flex: 1;
+    padding: 5px;
+    border-right: 1px solid #ccc; /* Border between columns */
+}
+.outer-box2 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.outer-box2:focus {
+    outline: none;
+}
+.outer-box2 h4{
+    border-bottom: 1px solid #ccc;
+}
+.links{
+    margin-left: 15px;
+}
+.comment-container{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.comment{
+    font-size: 15px;
+    background-color:#F6F5F5;
+    padding: 10px;
+    width: 500px;
+}
+#comments-list{
+    font-size: 15px;
+    padding: 20px;
+}
+#comment-input{
+    width:500px;
+}
+.replied{
+    font-size: 15px;
+    background-color:#F6F5F5;
+    width: 500px;
+    padding: 10px;
+    margin-left: 50px;
+}
+.replied-to{
+    margin-left: 50px;
+    background-color: white;
+}
+.end{
+    background-color: #222831;
+    height: 70px;
+    width:auto;
+    font-family: Poppins;
+    padding: 10px;
+    padding-left: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 30px;
+}
